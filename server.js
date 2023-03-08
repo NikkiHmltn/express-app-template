@@ -9,6 +9,7 @@ const PORT = process.env.PORT
 //EXTERNAL MIDDLEWARE
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
+app.use(express.static('public'))
 
 //INTERNAL MIDDLEWARE
 const routes = require('./routes/index')

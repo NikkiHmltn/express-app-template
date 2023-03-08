@@ -1,1 +1,1 @@
-# express-app-template
+FOLDER STRUCTURE
